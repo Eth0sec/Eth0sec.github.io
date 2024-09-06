@@ -1,0 +1,5 @@
+This is what’s happening:
+
+- `-x`: Specifies un-secure simple authentication over secure SASL authentication.
+- `-H ldap://<X.X.X.X>`: Specifies the LDAP server’s URI. The `-H` option defines the connection URL for the LDAP server.
+- `-b "DC=<Your_Subdomain>,DC=<TLD>"`: Sets the base distinguished name for the search. This defines the starting point in the LDAP directory from which the search operation begins. In this case, the top of the domain level.
